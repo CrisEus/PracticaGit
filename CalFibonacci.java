@@ -35,10 +35,12 @@ public class CalFibonacci {
             iValor = Integer.parseInt(sAux);
             switch (iValor) {
                 case 3:
-                    sResultado = "1";
+                    //cambio valor de 1 a 100
+                    sResultado = "100";
                     break;
                 case 2:
-                    sResultado = "0" + sResultado;
+                    //cambio valor de 0 a 200
+                    sResultado = "200" + sResultado;
                     break;
                 case 1:
                     sResultado = "0" + sResultado;
